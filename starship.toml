@@ -4,9 +4,9 @@ format = """
 [](surface0)\
 $os\
 $username\
-[](bg:peach fg:surface0)\
+[](bg:pink fg:surface0)\
 $directory\
-[](fg:peach bg:green)\
+[](fg:pink bg:green)\
 $git_branch\
 $git_status\
 [](fg:green bg:teal)\
@@ -19,9 +19,7 @@ $java\
 $kotlin\
 $haskell\
 $python\
-[](fg:teal bg:blue)\
-$docker_context\
-[](fg:blue bg:lavender)\
+[](fg:teal bg:lavender)\
 $time\
 [ ](fg:lavender)\
 $line_break$character"""
@@ -100,7 +98,7 @@ style_root = "bg:surface0 fg:text"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:mantle bg:peach"
+style = "fg:mantle bg:pink"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
